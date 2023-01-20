@@ -3,20 +3,21 @@ const { fontFamily } = require('tailwindcss/defaultTheme');
 
 module.exports = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-    "./layouts/**/*.{js,ts,jsx,tsx}",
+    './src/pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+    './layouts/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
       colors: {
-        'navy': '#252E37'
+        'navy-deep': '#252E37',
+        'navy-medium': '#4E6174',
       },
       fontFamily: {
-        'sans': ['var(--chivo-font)', ...fontFamily.sans],
-        'serif': ['var(--chivo-font)', ...fontFamily.serif],
+        sans: ['var(--chivo-font)', ...fontFamily.sans],
+        serif: ['var(--chivo-font)', ...fontFamily.serif],
       },
     },
   },
   plugins: [],
-}
+};
