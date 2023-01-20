@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 
 const Footer: FC = () => {
-  return <footer></footer>;
+  return <footer className="h-[200px] bg-navy-deep"></footer>;
 };
 
 export default Footer;
