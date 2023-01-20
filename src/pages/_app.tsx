@@ -1,6 +1,26 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import { Chivo } from '@next/font/google';
+import { AppProps } from 'next/app';
+import '../styles/globals.css';
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+const chivo = Chivo({
+  weight: ['400', '700'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+});
+
+function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <>
+      <style jsx global>
+        {`
+          :root {
+            --chivo-font: ${chivo.style.fontFamily};
+          }
+        `}
+      </style>
+      <Component {...pageProps} />
+    </>
+  );
 }
+
+export default MyApp;
