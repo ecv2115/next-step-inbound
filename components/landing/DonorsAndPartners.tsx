@@ -3,29 +3,29 @@ import Image from 'next/image';
 
 const DonorsAndPartners: FC = () => {
   return (
-    <div className="bg-[#FAFAFA] px-[6.6vw] py-[6vw] text-center w-full">
-      <h2 className="text-center text-sm md:text-base text-navy-medium">
+    <div className="w-full bg-[#FAFAFA] px-[6.6vw] py-28 text-center">
+      <h2 className="pb-2 text-center text-sm text-navy-medium md:text-base">
         DONORS &amp; PARTNERS
       </h2>
-      <h3 className="py-6 text-3xl md:text-5xl text-center">
+      <h3 className="text-center text-3xl md:text-5xl">
         Our supporters who
-        <br/>
+        <br />
         empower change
       </h3>
-      <div className="flex flex-col justify-center items-center md:flex-row w-full md:gap-20">
-        <div className="relative h-[150px] w-[75vw] md:w-[50vw]">
+      <div className="mt-20 flex w-full flex-col items-center justify-center gap-8 md:flex-row md:gap-[20vw]">
+        <div className="relative h-[50px] w-full md:w-[50vw]">
           <Image
             src="/images/ColumbiaLogo.png"
             fill
-            style={{ objectFit: 'contain'}}
+            style={{ objectFit: 'contain' }}
             alt="columbia logo"
           />
         </div>
-        <div className="relative h-[150px] w-[75vw] md:w-[50vw]">
+        <div className="relative h-[50px] w-full md:w-[50vw]">
           <Image
             src="/images/GibsonDunnLogo.png"
             fill
-            style={{ objectFit: 'contain'}}
+            style={{ objectFit: 'contain' }}
             alt="gibson dunn logo"
           />
         </div>

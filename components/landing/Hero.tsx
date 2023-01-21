@@ -14,11 +14,11 @@ const Hero: FC = () => {
           alt="college walk"
         />
       </div>
-      <div className="absolute top-0 z-10 flex h-[75vh] w-full flex-col justify-center px-[6.6vw] text-white md:max-w-[50vw]">
+      <div className="absolute top-0 z-10 flex h-[75vh] w-full flex-col justify-center gap-4 px-[6.6vw] text-white md:max-w-[50vw]">
         <h1 className="text-4xl md:text-6xl">
           Take the next step towards higher education
         </h1>
-        <p className="my-4">
+        <p>
           Free admissions educational resources are available to service members
           through our online platform.
         </p>

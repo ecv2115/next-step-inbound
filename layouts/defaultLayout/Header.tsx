@@ -14,7 +14,7 @@ const Header: FC = () => {
           <h5>Resources</h5>
           <Link href="/">Discord</Link>
         </div>
-        <div className="relative flex h-[36px] w-full max-w-[183px] md:mx-[7vw] md:h-[72px] md:max-w-[366px]">
+        <div className="relative flex h-[36px] w-full max-w-[183px] md:mx-[2vw] md:h-[72px] md:max-w-[366px] lg:mx-[7vw]">
           <Image
             src="/images/ntiLogo.png"
             fill
@@ -27,7 +27,7 @@ const Header: FC = () => {
           <h5>Blog</h5>
           <Link
             href="/"
-            className="rounded w-fit border border-red-500 bg-transparent py-2 px-8 text-red-700 hover:border-transparent hover:bg-red-500 hover:text-white"
+            className="w-fit rounded border border-red-500 bg-transparent py-2 px-8 text-red-700 hover:border-transparent hover:bg-red-500 hover:text-white"
           >
             Donate
           </Link>
