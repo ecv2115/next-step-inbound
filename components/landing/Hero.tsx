@@ -24,7 +24,7 @@ const Hero: FC = () => {
         </p>
         <Link
           href="/"
-          className="w-40 rounded border border-transparent bg-red-500 py-2 px-8 text-white hover:border-red-500 hover:bg-white hover:text-red-700"
+          className="w-fit rounded border border-transparent bg-red-500 py-2 px-8 text-white hover:border-red-500 hover:bg-white hover:text-red-700"
         >
           Learn More
         </Link>

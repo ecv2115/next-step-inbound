@@ -12,6 +12,8 @@ module.exports = {
       colors: {
         'navy-deep': '#252E37',
         'navy-medium': '#4E6174',
+        'grayscale-black': '#222222',
+        'grayscale-charcoal': '#373737',
       },
       fontFamily: {
         sans: ['var(--chivo-font)', ...fontFamily.sans],
