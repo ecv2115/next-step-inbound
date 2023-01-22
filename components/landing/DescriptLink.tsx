@@ -30,14 +30,16 @@ const DescriptLink: FC<DescriptLinkProps> = ({
     <div
       className={`flex flex-col ${flexOrdering(
         imageLocation
-      )} h-[75vh] w-full px-[6.6vw] py-28 md:gap-20 md:py-0 bg-[${backgroundColor}]`}
+      )} h-[75vh] w-full gap-8 px-[6.6vw] py-20 md:gap-20 md:py-0 bg-[${backgroundColor}]`}
     >
       <div className="relative w-full flex-[3_3_0%]">
         <Image src={imageSrc} fill style={{ objectFit: 'contain' }} alt="" />
       </div>
       <div className="flex h-[75vh] flex-[2_2_0%] flex-col justify-center gap-4 md:max-w-[50vw]">
         <h3 className="text-left text-navy-medium">{heading}</h3>
-        <h1 className="text-3xl text-grayscale-black md:text-5xl">{title}</h1>
+        <h2 className="text-3xl font-bold text-grayscale-black md:text-5xl">
+          {title}
+        </h2>
         <p className="text-grayscale-charcoal">{description}</p>
         <Link
           href={buttonHref}

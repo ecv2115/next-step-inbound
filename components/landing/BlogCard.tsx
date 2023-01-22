@@ -15,7 +15,7 @@ const BlogCard: FC<BlogData> = ({ title, author, date, description, id }) => {
   */
   return (
     <div className="flex min-w-[250px] max-w-[400px] flex-col gap-4">
-      <h4 className="text-3xl">{title}</h4>
+      <h4 className="text-2xl md:text-3xl">{title}</h4>
       <p className="text-xs">{`${author} | ${date}`}</p>
       <p className="text-justify">{description}</p>
       <Link

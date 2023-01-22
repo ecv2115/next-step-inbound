@@ -61,7 +61,7 @@ export default function Home() {
         <section id="education">
           <DescriptLink
             heading="Education"
-            title="The things we wish we whouls have known"
+            title="The things we wish we would have known"
             description="We've built a library of on-demand resources to support you through your college admission process."
             buttonText="Explore Education"
             buttonHref="/"

@@ -7,7 +7,7 @@ interface BlogProps {
 
 const Blog: FC<BlogProps> = ({ blogPosts }) => {
   return (
-    <div className="items-center px-[6.6vw] py-28">
+    <div className="items-center px-[6.6vw] py-20">
       <div className="mb-20">
         <h2 className="mb-4 text-center text-navy-medium">BLOG</h2>
         <h3 className="text-center text-3xl font-bold text-grayscale-black md:text-5xl">
