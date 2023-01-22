@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import Trail from '@components/common/Trail';
 
 const Hero: FC = () => {
   return (
@@ -14,7 +15,7 @@ const Hero: FC = () => {
           alt="college walk"
         />
       </div>
-      <div className="absolute top-0 z-10 flex h-[75vh] w-full flex-col justify-center gap-4 px-[6.6vw] text-white md:max-w-[50vw]">
+      <Trail className="absolute top-0 z-10 flex h-[75vh] w-full flex-col justify-center gap-4 px-[6.6vw] text-white md:max-w-[50vw]">
         <h1 className="text-4xl font-bold md:text-6xl">
           Take the next step towards higher education
         </h1>
@@ -28,7 +29,7 @@ const Hero: FC = () => {
         >
           Learn More
         </Link>
-      </div>
+      </Trail>
     </div>
   );
 };
