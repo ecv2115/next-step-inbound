@@ -48,7 +48,7 @@ const DescriptLink: FC<DescriptLinkProps> = ({
     <div
       className={`flex flex-col ${flexOrdering(
         imageLocation
-      )} h-[75vh] w-full gap-8 px-[6.6vw] py-20 md:gap-20 md:py-0 bg-[${backgroundColor}]`}
+      )} h-[85vh] w-full gap-8 px-[6.6vw] py-20 md:h-[75vh] md:gap-20 md:py-0 bg-[${backgroundColor}]`}
     >
       <animated.div
         ref={ref}

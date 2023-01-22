@@ -36,7 +36,7 @@ export default function Home() {
 
   return (
     <DefaultLayout>
-      <main className="font-sans">
+      <main className="z-0 font-sans">
         <section id="hero">
           <Hero />
         </section>

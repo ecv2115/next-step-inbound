@@ -1,6 +1,7 @@
 import React, { FC, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import EducationDropDown from './EducationDropDown';
 
 const Header: FC = () => {
   const [menuOpen, setMenuOpen] = useState<Boolean>(false);
@@ -8,9 +9,9 @@ const Header: FC = () => {
 
   return (
     <header>
-      <div className="h-38 flex w-full flex-row items-center justify-between bg-white px-[6.6vw] py-7 text-navy-deep md:justify-center">
+      <div className="h-38 flex w-full flex-row items-center justify-between overflow-visible bg-white px-[6.6vw] py-7 text-navy-deep md:justify-center">
         <div className="hidden w-full items-center justify-between text-sm md:flex">
-          <h5>Education</h5>
+          <EducationDropDown />
           <h5>Resources</h5>
           <Link href="/">Discord</Link>
         </div>

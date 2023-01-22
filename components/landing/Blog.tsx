@@ -16,7 +16,7 @@ const Blog: FC<BlogProps> = ({ blogPosts }) => {
           the latests news
         </h3>
       </div>
-      <div className="flex flex-col items-center justify-center gap-8 lg:flex-row lg:flex-wrap lg:items-start lg:justify-between">
+      <div className="flex flex-col items-center justify-center gap-8 lg:flex-row lg:flex-wrap lg:items-start lg:justify-around">
         {blogPosts.map((data: BlogData) => (
           <BlogCard
             title={data.title}
