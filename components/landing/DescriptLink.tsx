@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTrail } from 'react-spring';
 
 export interface DescriptLinkProps {
   heading: string;
@@ -23,7 +24,7 @@ const DescriptLink: FC<DescriptLinkProps> = ({
   imageLocation,
   backgroundColor,
 }) => {
-  const flexOrdering = (imageLocation: string) =>
+  const flexOrdering = (imageLocation: string): string =>
     imageLocation === 'left' ? 'md:flex-row' : 'md:flex-row-reverse';
 
   return (
